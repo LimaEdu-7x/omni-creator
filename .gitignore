@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Internal & logs
+*.log
+.env
+.cursor/
+.windsurfrules
