@@ -1,0 +1,44 @@
+{
+  "name": "omni-creator",
+  "version": "1.0.0",
+  "description": "Universal Brazilian AI skill & CLI for authentic voice profiling, high-conversion anti-AI copywriting, multi-channel distribution, video hooks, and brandkit direction.",
+  "main": "index.js",
+  "bin": {
+    "omni-creator": "bin/creator.js",
+    "creator": "bin/creator.js"
+  },
+  "scripts": {
+    "start": "node bin/creator.js"
+  },
+  "keywords": [
+    "ai",
+    "skill",
+    "agent-skill",
+    "brazil",
+    "copywriting",
+    "content-creation",
+    "anti-ai",
+    "voice-builder",
+    "hook-generator",
+    "content-matrix",
+    "marketing",
+    "brandkit",
+    "claude",
+    "antigravity",
+    "cursor",
+    "windsurf"
+  ],
+  "author": "LimaEdu-7x",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LimaEdu-7x/omni-creator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LimaEdu-7x/omni-creator/issues"
+  },
+  "homepage": "https://github.com/LimaEdu-7x/omni-creator#readme",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
