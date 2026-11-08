@@ -18,7 +18,7 @@ Diga adeus a textos genéricos de IA, aberturas robóticas como *"no mundo agita
 
 O **OmniCreator** nasceu com a missão de empoderar criadores, desenvolvedores, fundadores e profissionais de marketing a comunicar sua verdade com originalidade, eliminando o lixo textual e os vícios padronizados gerados por inteligências artificiais.
 
-Criado e mantido por [Eduardo Lima (LimaEdu-7x)](https://github.com/LimaEdu-7x), o projeto prioriza:
+Criado e mantido por [LimaEdu-7x](https://github.com/LimaEdu-7x), o projeto prioriza:
 - **Zero Enrolação & Anti-AI Tells:** Banimento sistemático de jargões corporativos e clichês sintéticos via *Portão de Três Perguntas* e *Teste da Troca*.
 - **Voz Humana Autêntica:** Extração metódica de ritmo, pausas, vocabulário e crenças contra o senso comum em arquivos duráveis (`about-me.md` e `voice.md`).
 - **Engenharia de Conversão:** Psicologia de marketing aplicada (aversão à perda, prova factual, contraste de antes/depois e especificidade cirúrgica).
