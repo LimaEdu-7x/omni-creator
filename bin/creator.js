@@ -42,10 +42,10 @@ function printHelp() {
 ✍️  OmniCreator — Universal Content Creation, Voice & High-Conversion Copywriting Engine
 
 Usage:
-  npx omni-creator install           Interactive multi-selection menu
-  npx omni-creator install <targets> Direct install (e.g. npx omni-creator install antigravity claude)
-  npx omni-creator print             Print the raw SKILL.md content to stdout
-  npx omni-creator info              Show supported pillars and quick commands
+  npx github:LimaEdu-7x/omni-creator install           Interactive multi-selection menu
+  npx github:LimaEdu-7x/omni-creator install <targets> Direct install (e.g. npx github:LimaEdu-7x/omni-creator install antigravity claude)
+  npx github:LimaEdu-7x/omni-creator print             Print the raw SKILL.md content to stdout
+  npx github:LimaEdu-7x/omni-creator info              Show supported pillars and quick commands
 
 Available Targets:
   antigravity  Installs to ~/.gemini/config/skills/omni-creator/ (SKILL.md + references/)

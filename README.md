@@ -8,7 +8,6 @@
 [![Skill: Antigravity](https://img.shields.io/badge/Skill-Antigravity-orange.svg)](#antigravity--gemini-cli)
 [![Compatible: Claude Code](https://img.shields.io/badge/Compatible-Claude%20Code-purple.svg)](#claude-code)
 [![Compatible: Cursor](https://img.shields.io/badge/Compatible-Cursor%20%2F%20Windsurf-teal.svg)](#cursor-ide)
-[![NPM Version](https://img.shields.io/badge/NPM-omni--creator-red.svg)](https://www.npmjs.com/package/omni-creator)
 
 Diga adeus a textos genéricos de IA, aberturas robóticas como *"no mundo agitado de hoje"* e clichês vazios. O **OmniCreator** transforma o seu assistente de IA em um diretor de criação de padrão internacional, redator publicitário de alta resposta e arquiteto de marca com um único comando.
 
@@ -20,14 +19,13 @@ Diga adeus a textos genéricos de IA, aberturas robóticas como *"no mundo agita
 npx skills add LimaEdu-7x/omni-creator
 ```
 
-O menu pede os agentes (Claude Code, Codex, Gemini CLI, Cursor e outros) e o escopo (projeto ou global). Use `--list` para só ver o que será instalado.
+O menu pede os agentes (Claude Code, Codex, Gemini CLI, Cursor e outros) e o escopo (projeto ou global). Use `--list` para só ver o que será instalado. Para atualizar depois: `npx skills update`. Os comandos `npx github:...` abaixo baixam a versão mais recente do GitHub a cada execução, sem depender de publicação no npm.
 
 **Alternativa (instalador próprio):**
 
 ```bash
-npx omni-creator install        # menu interativo
-npx omni-creator install all    # todas as IAs, sem menu
-npx github:LimaEdu-7x/omni-creator install
+npx github:LimaEdu-7x/omni-creator install        # menu interativo
+npx github:LimaEdu-7x/omni-creator install all    # todas as IAs, sem menu
 ```
 
 ## 🇧🇷 Projeto Brasileiro Open-Source
