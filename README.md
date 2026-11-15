@@ -22,6 +22,14 @@ npx skills add LimaEdu-7x/omni-creator
 
 O menu pede os agentes (Claude Code, Codex, Gemini CLI, Cursor e outros) e o escopo (projeto ou global). Use `--list` para só ver o que será instalado.
 
+**Alternativa (instalador próprio):**
+
+```bash
+npx omni-creator install        # menu interativo
+npx omni-creator install all    # todas as IAs, sem menu
+npx github:LimaEdu-7x/omni-creator install
+```
+
 ## 🇧🇷 Projeto Brasileiro Open-Source
 
 O **OmniCreator** nasceu com a missão de empoderar criadores, desenvolvedores, fundadores e profissionais de marketing a comunicar sua verdade com originalidade, eliminando o lixo textual e os vícios padronizados gerados por inteligências artificiais.
@@ -104,39 +112,6 @@ Execute a skill no seu terminal ou assistente de IA usando o prefixo `/creator:`
 /creator:score [cole o seu texto aqui]
 ```
 > Emite notas de 1 a 10 em Gancho, Ritmo, Formato, CTA e Voz, além de reescrever qualquer trecho com pontuação inferior a 9.
-
----
-
-## 📦 Como Instalar nas Suas IAs
-
-### 1. Instalador Interativo via Terminal (Recomendado)
-Execute `npx omni-creator install` para abrir o menu interativo com caixas de seleção. Use as **Setas** para navegar, **Espaço** para marcar as IAs desejadas e **Enter** para concluir:
-
-```bash
-npx omni-creator install
-```
-
-```text
-✍️  OmniCreator Installer
-? Em quais IAs você deseja instalar a OmniCreator? (Setas: mover | Espaço: marcar/desmarcar | Enter: confirmar)
- ❯ [✓] 🪐 Antigravity / Gemini CLI (~/.gemini/config/skills/omni-creator)
-   [✓] 🟣 Claude Code (~/.claude/skills/omni-creator)
-   [✓] ⚡ Cursor IDE (.cursor/rules/omni-creator.mdc)
-   [ ] 🌊 Windsurf (.windsurfrules)
-   [ ] 📁 Projeto Local (./SKILL.md + references/)
-(Pressione Enter para confirmar a seleção)
-```
-
-#### Instalação Direta sem Menu (Headless):
-```bash
-# Instalar em todas as IAs suportadas de uma vez:
-npx omni-creator install all
-
-# Instalar em IAs específicas:
-npx omni-creator install antigravity claude
-npx omni-creator install cursor
-npx omni-creator install local
-```
 
 ---
 
