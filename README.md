@@ -14,6 +14,14 @@ Diga adeus a textos genéricos de IA, aberturas robóticas como *"no mundo agita
 
 ---
 
+## 📥 Instalar
+
+```text
+npx skills add LimaEdu-7x/omni-creator
+```
+
+O menu pede os agentes (Claude Code, Codex, Gemini CLI, Cursor e outros) e o escopo (projeto ou global). Use `--list` para só ver o que será instalado.
+
 ## 🇧🇷 Projeto Brasileiro Open-Source
 
 O **OmniCreator** nasceu com a missão de empoderar criadores, desenvolvedores, fundadores e profissionais de marketing a comunicar sua verdade com originalidade, eliminando o lixo textual e os vícios padronizados gerados por inteligências artificiais.
